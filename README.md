@@ -20,6 +20,7 @@ folder structure
 
 ## Prerequisites
 - Pytorch
+- ftfy
 
 ## Getting Started
 
@@ -27,7 +28,7 @@ folder structure
 
 - You can use your own set of images and sketches by modifying the `images/` and `sketches/` folder accordingly.
 
-- Colab version of the notebook is available [[here]](https://colab.research.google.com/)
+- Colab version of the notebook is available [[here]](https://colab.research.google.com/drive/1dpzDkpMVYfiV82XJlyM09wYCMlXyjAY-?usp=sharing)
  
 ## Download Models
 - <a href='https://patsorn.me/projects/tsbir/data/tsbir_model_final.pt' > Pre-trained models </a>  
