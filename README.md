@@ -1,7 +1,9 @@
 # Image Retrieval with Text and Sketch
-This code is for our 2022 ECCV paper [[A Sketch Is Worth a Thousand Words: Image Retrieval with Text and Sketch]](https://patsorn.me/projects/tsbir/)
+This code is for our 2022 ECCV paper [A Sketch Is Worth a Thousand Words: Image Retrieval with Text and Sketch](https://patsorn.me/projects/tsbir/)
 
-<img src="https://patsorn.me/projects/tsbir/img/teaser_web_mini.jpg" width="900px"/>
+<img src="https://patsorn.me/projects/tsbir/img/teaser_web_mini.jpg" width="800px"/>
+
+This repo is based on open_clip implementation from https://github.com/mlfoundations/open_clip
 
 ---------------------
 folder structure
@@ -9,24 +11,25 @@ folder structure
     |---model/       : Contain the trained model*
     |---sketches/    : Contain example query sketch
     |---images/      : Contain 100 randomly sampled images from COCO TBIR benchmark
-    |---notebooks/   : Contain the demo ipynb notebook (can run via Colab)
+    |---notebooks/   : Contain the demo ipynb notebook 
     |---code/        
         |---training/model_configs/      : Contain model config file for the network
         |---clip/                        : Contain source code for running the notebook    
     
-*model can be downloaded from https://patsorn.me/projects/tsbir/data/tsbir_model_final.pt
-
-This repo is based on open_clip implementation from https://github.com/mlfoundations/open_clip
+*need to be downloaded first
 
 ## Prerequisites
 - Pytorch
 
 ## Getting Started
 
-Simply run notebooks/Retrieval_Demo.ipynb, you can use your own set of images and sketches by modifying the images/ and sketches/ folder accordingly.
+- Simply open jupyter notebook in `notebooks/Retrieval_Demo.ipynb` for an example of how to retrieve images using our model, 
+
+- You can use your own set of images and sketches by modifying the `images/` and `sketches/` folder accordingly.
+
+- Colab version of the notebook is available [[here]](https://colab.research.google.com/)
  
 ## Download Models
-Pre-trained models 
 - <a href='https://patsorn.me/projects/tsbir/data/tsbir_model_final.pt' > Pre-trained models </a>  
 
 ## Citation
