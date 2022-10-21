@@ -237,10 +237,6 @@ class VisualTransformer(nn.Module):
 
         return x
 
-
-from x_transformers.autoregressive_wrapper import AutoregressiveWrapper
-from x_transformers import ViTransformerWrapper, TransformerWrapper, Encoder, Decoder
-
 class CLIP(nn.Module):
     def __init__(self,
                  embed_dim: int,
